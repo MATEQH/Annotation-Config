@@ -1,8 +1,8 @@
 # Annotation-Config
 
-### Example
+## Example
 
-## (@ConfigPath annotation)
+### (@ConfigPath annotation)
 
 ```java
 public class Messages {
