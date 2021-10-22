@@ -14,7 +14,7 @@ public class Messages {
     @ConfigPath(path = "exampleLong")
     public static long EXAMPLE_LONG = 401234543l;
     
-     @ConfigPath(path = "exampleExportString", name = "exported-config")
+    @ConfigPath(path = "exampleExportString", name = "exported-config")
     public static long EXAMPLE_EXPORT_STRING = "This string was exported.";
 }
 ```
