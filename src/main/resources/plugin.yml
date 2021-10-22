@@ -1,0 +1,4 @@
+name: AnnotationConfig
+version: 0.1
+author: Matthew
+main: com.github.matthew.config.ExampleConfig
