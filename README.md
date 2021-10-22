@@ -18,7 +18,7 @@ public class Messages {
 }
 ```
 
-### ConfigFile initialize
+### Config file initialize
 ```java
 public class ExamplePlugin extends JavaPlugin {
 
