@@ -1,7 +1,5 @@
 # Annotation-Config
 
-### Example
-
 ### @ConfigPath annotation
 
 ```java
