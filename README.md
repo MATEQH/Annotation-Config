@@ -1,6 +1,6 @@
 # Annotation-Config
 
-## Example
+### Example
 
 ### @ConfigPath annotation
 
