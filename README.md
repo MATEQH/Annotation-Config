@@ -31,7 +31,7 @@ public class ExamplePlugin extends JavaPlugin {
                 .registerClass(Messages.class)
                 .createFile(true)
                 .loadConfig();
-        simpleConfig = new ConfigFile(this, "exported-config")
+        exportedConfig = new ConfigFile(this, "exported-config")
                 .registerClass(Messages.class)
                 .export()
                 .loadConfig();
