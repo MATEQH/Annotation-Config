@@ -38,3 +38,5 @@ public class ExamplePlugin extends JavaPlugin {
     }
 }
 ```
+## TODO:
+- add documentation
