@@ -30,11 +30,13 @@ public class ExamplePlugin extends JavaPlugin {
         simpleConfig = new ConfigFile(this, "config")
                 .registerClass(Messages.class)
                 .createFile(true)
-                .loadConfig();
+                .loadConfig()
+                .setAnnotatedFields();
         exportedConfig = new ConfigFile(this, "exported-config")
                 .registerClass(Messages.class)
                 .export()
-                .loadConfig();
+                .loadConfig()
+                .setAnnotatedFields();
     }
 }
 ```
