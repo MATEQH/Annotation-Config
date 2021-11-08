@@ -1,4 +1,4 @@
-package com.github.matthew.config.resolver;
+package com.github.mateqh.config.resolver;
 
 public interface ValueResolver<T> {
 

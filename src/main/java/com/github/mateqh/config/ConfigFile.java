@@ -1,7 +1,7 @@
-package com.github.matthew.config;
+package com.github.mateqh.config;
 
 import com.google.common.collect.Lists;
-import com.github.matthew.config.resolver.ValueResolver;
+import com.github.mateqh.config.resolver.ValueResolver;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;

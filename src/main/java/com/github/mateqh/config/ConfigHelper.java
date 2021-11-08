@@ -1,10 +1,11 @@
-package com.github.matthew.config;
+package com.github.mateqh.config;
 
-import com.github.matthew.config.resolver.implement.*;
+import com.github.mateqh.config.resolver.implement.*;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Table;
-import com.github.matthew.config.resolver.ValueResolver;
+import com.github.mateqh.config.resolver.ValueResolver;
+import org.bukkit.inventory.ItemStack;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -23,11 +24,13 @@ public class ConfigHelper {
         resolverMap.put(int.class, new IntegerResolver());
         resolverMap.put(Long.class, new LongResolver());
         resolverMap.put(long.class, new LongResolver());
+        resolverMap.put(ItemStack.class, new ItemStackResolver());
         resolverTable.put(List.class, String.class, new StringListResolver());
         resolverTable.put(List.class, Boolean.class, new BooleanListResolver());
         resolverTable.put(List.class, Integer.class, new IntegerListResolver());
         resolverTable.put(List.class, Long.class, new LongListResolver());
         resolverTable.put(List.class, Float.class, new FloatListResolver());
+        resolverTable.put(List.class, ItemStack.class, new ItemStackListResolver());
     }
 
     public static Map<Type, ValueResolver<?>> getResolverMap() {

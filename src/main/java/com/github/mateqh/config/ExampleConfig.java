@@ -1,4 +1,4 @@
-package com.github.matthew.config;
+package com.github.mateqh.config;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

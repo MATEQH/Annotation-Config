@@ -1,6 +1,6 @@
-package com.github.matthew.config.resolver.implement;
+package com.github.mateqh.config.resolver.implement;
 
-import com.github.matthew.config.resolver.ValueResolver;
+import com.github.mateqh.config.resolver.ValueResolver;
 
 public class StringResolver implements ValueResolver<String> {
 
