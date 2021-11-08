@@ -11,11 +11,13 @@ public class ExampleConfig extends JavaPlugin {
         simpleConfig = new ConfigFile(this, "config")
                 .registerClass(this.getClass())
                 .createFile(true)
-                .loadConfig();
+                .loadConfig()
+                .setAnnotatedFields();
         simpleConfig = new ConfigFile(this, "exported-config")
                 .registerClass(this.getClass())
                 .export()
-                .loadConfig();
+                .loadConfig()
+                .setAnnotatedFields();
         System.out.println(exampleString1);
         System.out.println(exampleString2);
         System.out.println(exampleInt);
